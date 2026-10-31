@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap Index
+Sitemap: https://only-1-percent-game.vercel.app/sitemap.xml

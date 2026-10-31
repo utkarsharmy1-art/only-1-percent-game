@@ -1,0 +1,16 @@
+{
+  "name": "ONLY 1% CAN WIN — Fast Reaction & Brain Challenge",
+  "short_name": "Only 1%",
+  "description": "30-second speed test for cognitive observation, memory, and fast reaction.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07060e",
+  "theme_color": "#0d0b1a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

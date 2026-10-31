@@ -2,17 +2,65 @@
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
     <title>ONLY 1% CAN WIN — Fast Reaction & Brain Challenge</title>
-    <meta name="description" content="Can you beat the 30-second speed test? Only 1% of players reach the top score!" />
+    <meta name="description" content="Test your speed, observation, memory, and cognitive reflexes in the 30-second speed challenge. Can you reach the top 1% score? Play free online." />
+    <meta name="keywords" content="reaction game, brain challenge, speed test, cognitive reflex test, online memory puzzle, free browser game" />
+    <meta name="author" content="ONLY 1% CAN WIN Team" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://only-1-percent-game.vercel.app/" />
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:site_name" content="ONLY 1% CAN WIN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://only-1-percent-game.vercel.app/" />
+    <meta property="og:title" content="ONLY 1% CAN WIN — Fast Reaction & Brain Challenge" />
+    <meta property="og:description" content="Can you beat the 30-second speed test? Over 6 micro-challenges test your observation, memory, and reflexes. Free to play online." />
+    <meta property="og:image" content="https://only-1-percent-game.vercel.app/favicon.svg" />
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://only-1-percent-game.vercel.app/" />
+    <meta name="twitter:title" content="ONLY 1% CAN WIN — Fast Reaction & Brain Challenge" />
+    <meta name="twitter:description" content="Can you beat the 30-second speed test? Fast-paced reflex and memory mini-game." />
+    <meta name="twitter:image" content="https://only-1-percent-game.vercel.app/favicon.svg" />
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#0d0b1a" />
+
+    <!-- Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "ONLY 1% CAN WIN",
+        "url": "https://only-1-percent-game.vercel.app/",
+        "description": "Fast-paced reaction, observation, and memory mini-game testing cognitive reflexes.",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "All modern web browsers",
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+    <!-- Google AdSense Site Verification -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8582966122190993" crossorigin="anonymous"></script>
   </head>
-  <body class="bg-[#07060e] text-slate-100 antialiased select-none overflow-x-hidden min-h-screen">
-    <div id="root"></div>
+  <body class="bg-[#07060e] text-slate-100 antialiased overflow-x-hidden min-h-screen flex flex-col">
+    <div id="root" class="flex-1 flex flex-col"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
